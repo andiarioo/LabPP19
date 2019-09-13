@@ -44,4 +44,4 @@
 4.  [x] Dilarang **_KERAS_** asistensi pada **_H-1_** sebelum jadwal Lab, jika belum melakukan asistensi sebelumnya
 
 
-> #SEMUA ATURAN DIATAS MULAI BERLAKU PADA SAAT PENGUMPULAN TUGAS PRAKTIKUM KE-2
+#SEMUA ATURAN DIATAS MULAI BERLAKU PADA SAAT PENGUMPULAN TUGAS PRAKTIKUM KE-2
