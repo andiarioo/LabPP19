@@ -41,7 +41,6 @@
 1.  [x] Folder Yang Dibuat sesuai dengan ketentuan. **_Teratur/Rapi_**
 2.  [x] **_Satu Praktikum ,Satu Folder_**
 3.  [x] **_Satu Soal, Satu Kelas_**
-4.  [x] Dilarang **_KERAS_** asistensi pada **_H-1_** sebelum jadwal Lab, jika belum melakukan asistensi sebelumnya
 
 ### **_if(Asistensi == 2){Tugas Praktikum = 100%;}_** 
 
