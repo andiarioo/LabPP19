@@ -44,6 +44,4 @@
 
 ### **_if(Asistensi == 2){Tugas Praktikum = 100%;}_** 
 
-## SEMUA ATURAN DIATAS MULAI BERLAKU PADA SAAT PENGUMPULAN TUGAS PRAKTIKUM KE-2
-
 
