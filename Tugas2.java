@@ -1,33 +1,30 @@
-import java.util.Scanner;
+import java.util.*;
 public class Tugas2{
-	public static void main(String[] args) {
-		Scanner raf = new Scanner(System.in);
-		System.out.println("Silahkan Masukkan input: ");
-		int i = raf.nextInt();
-		int j = raf.nextInt();
-		int k = raf.nextInt();
-		int[][] matrixA = new int[i][j];
-		int[][] matrixB = new int[j][k];
-		for(int a = 0; a < i; a++){
-			for(int b = 0; b < j; b++){
-				matrixA[a][b] = raf.nextInt();
+  public static void main(String[] args) {
+    Scanner fa = new Scanner(System.in);
+    int n = fa.nextInt();
+    int m = fa.nextInt();
+    String serialNumber = generateSerial(n, m);
+    System.out.println(serialNumber);
 
-			}
-		}
-		for(int b = 0; b < j; b++){
-			for(int c = 0; c < k; c++){
-				matrixB[b][c] = raf.nextInt();
-			}
-		}
-		for(int a = 0; a < i; a++){
-			for(int b = 0; b < k; b++){
-				int total = 0;
-				for(int c = 0; c < j; c++){
-					total = total + matrixA[a][c] * matrixB[c][b];
-				}
-				System.out.print(total + " ");
-			}
-			System.out.println();
-		}
-	}
+  }
+  public static String generateSerial(int n,int m){
+    String str = "";
+    Random angka = new Random();
+
+    for(int i = 1; i <= n; i++){
+      for(int j = 1; j<= m; j++){
+        int nilai = angka.nextInt(10);
+        str += String.valueOf(nilai);
+
+      }
+      if(i == n){
+        str += " ";
+      }
+      else{
+        str += "-";
+      }
+    }
+    return str;
+  }
 }
